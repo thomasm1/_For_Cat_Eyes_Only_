@@ -1,0 +1,79 @@
+@import (reference, less) '~materialize-css/dist/css/materialize.min.css';
+@import '~variables';
+:local(.Stepper) {
+  &:extend(.nav all);
+  &:extend(.nav.fixed);
+
+  @itemHeight: 85px;
+  @subnavItemHeight: 45px;
+  margin: 0;
+  padding: 15px;
+
+  width: 100%;
+  background-color: white;
+
+  li {
+    flex: 1;
+    padding: 5px;
+    min-width: 135px;
+    transition: 0.2s;
+    .step-num {
+      display: inline-block;
+      background-color: #A7A7A7;
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      text-align: center;
+      line-height: 25px;
+      font-size: 0.8rem;
+      color: white;
+    }
+    .step-title {
+      display: inline-block;
+      padding-left: 15px;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+    .material-icons {
+      font-size: 0.8rem;
+    }
+    &.selectable.non-linear:hover {
+      background-color: rgba(200,200,200,0.3);
+      cursor: pointer;
+    }
+    &.completed {
+      .step-num {
+        background-color: #0099A7;
+      }
+    }
+    &.active {
+      background: transparent;
+      &:hover {
+        background: transparent;
+      }
+      .step-num {
+        background-color: #00BBD3;
+      }
+    }
+  }
+
+  .step-content {
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-left: thin solid black;
+    margin-left: 12px;
+    margin-top: 5px;
+  }
+  li > a {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+  li.active > a {
+    background-color: @activeBackgroundColor;
+    color: @activeTextColor;
+    min-height: 85px;
+  }
+}

@@ -1,0 +1,329 @@
+@import "d3";
+@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Monoton:100,200,300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600');
+@import "bootstrap";
+@import "customVariables";
+@import "custom";
+@import "functions";
+@import "css3";
+@import "application";
+@import "styleTMcat";
+#draggable {
+    width: 100px;
+    height: 100px;
+    background-color: slateblue;
+    font-weight: bold;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.6);
+    border-radius: 5%;
+}
+
+#tmm-button {
+    background-color: #ff8707;
+    font-family: sans-serif;
+    padding: 1px;
+    opacity: .9;
+    font-size: 1.1rem;
+    color: darkslateblue;
+    padding: 5px;
+}
+
+.active {
+    background-color: yellow;
+}
+
+.catlist {
+    list-style-image: none;
+    list-style-type: none;
+}
+
+#fictional {
+    position: relative;
+    left: 20%;
+    border-radius: 15%;
+    border: solid .5px darkslateblue;
+    background-color: #ff8707;
+    opacity: .8;
+    background-image: url('../img/NACKhalifax60.png');
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.8);
+    padding: 5% 2%;
+    margin: 5%;
+    font-size: 1.6rem;
+}
+
+#fictional:hover {
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+}
+
+.pieds {
+    position: relative;
+    /* this gives IE6 hasLayout to properly clear */
+    clear: both;
+    /* this clear property forces the .container to understand where the columns end and contain them */
+    font-family: "courier new", courier, monospace;
+    font-size: 11px;
+    color: #ff8707;
+    height: 200px;
+    padding-top: 10px;
+    padding-right: 0;
+    padding-bottom: 10px;
+    padding-left: 0;
+}
+
+div#form {
+    font-family: "courier new", courier, monospace;
+    float: left;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 2%;
+    border: solid 1px slateblue;
+    background-color: #ff8707aa;
+    padding-left: 30px;
+    margin-top: 30px;
+    border: 1px solid purple;
+    text-align: justify;
+    border-color: white;
+}
+
+#window {
+    width: 150px;
+    padding-left: 2px;
+    height: 35px;
+    font-size: 16px;
+    background: none;
+    color: white;
+    background-image: url('../img/T30s.png');
+}
+
+#bu {
+    width: 35px;
+    background-image: url('../img/T30s.png');
+}
+
+.container {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container #center {
+    width: 300px;
+    float: right;
+    color: white;
+    font-family: "courier new", courier, monospace;
+    font-size: small;
+    padding-top: 20px;
+}
+
+#tmm_bck {
+    float: right;
+    position: fixed;
+    left: 20%;
+    top: 2px;
+}
+
+#tmm_bck:hover {
+    font-weight: 600;
+    background-color: solid 1px orange;
+    transition: margin 0.3s;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+}
+
+.tmm_bck {
+    width: 70%;
+    padding: 1%;
+    margin: 1% 2% 5%;
+    text-decoration: none;
+    border-radius: 85%;
+    background-color: #ff8707;
+    background-image: url('../img/bluechipTileT8.png');
+    border: solid .5px darkslateblue;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.6);
+    font-family: 'Monoton';
+    a {
+        text-decoration: none;
+        color: rgb(196, 188, 247);
+    }
+    a:hover {
+        text-decoration: none;
+        color: orange;
+        font-weight: 600;
+        background-color: solid 1px orange;
+        transition: margin 0.3s;
+        box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.excerpts {
+    line-height: 1.5em;
+    color: rgb(59, 50, 134);
+    opacity: .9;
+    font-family: "courier new", courier, monospace;
+}
+
+header {
+    margin-top: 100px;
+}
+
+#head {
+    line-height: 0.5rem;
+}
+
+#head p strong {
+    color: rgb(59, 50, 134);
+    opacity: .9;
+    font-family: "courier new", courier, monospace;
+}
+
+#head p strong {
+    font-family: "courier new", courier, monospace;
+}
+
+#head p strong {
+    font-family: "courier new", courier, monospace;
+}
+
+#head p strong {
+    font-family: "courier new", courier, monospace;
+}
+
+#kcbb1 {
+    box-shadow: 0px 10px 50px #ff8707dc;
+    min-width: 30%;
+    position: fixed;
+    top: 50px;
+    border-radius: 5% 35%;
+}
+
+#kcbb1:hover {
+    box-shadow: 0px 10px 50px #ff87074c;
+}
+
+#kcbb1:after {
+    content: "FOR   CAT  " ;
+}
+
+#kcbb:before {
+    content: url("../txt/kcbb.txt");
+}
+
+#kcbb2 {
+    position: fixed;
+    top: 50px;
+    left: 60%;
+    float: right;
+    box-shadow: 0px 10px 50px #ff8707dc;
+    min-width: 30%;
+    border-radius: 45% 5%;
+}
+
+#kcbb2:hover {
+    box-shadow: 0px 10px 50px #ff87074c;
+}
+
+#kcbb2:after {
+    content: "  EYES ONLY";
+}
+
+#kcbb2:before {
+    content: url("../txt/kcbb.txt");
+}
+
+.kcbb {
+    padding: 3%;
+    text-align: justify;
+    font-size: 13;
+    float: right;
+    max-width: 100%;
+    background-color: teal;
+    color: yellow;
+    border: solid .5px darkslateblue;
+    opacity: .68;
+    font-family: "courier new", courier, monospace;
+    float: left;
+}
+
+.kcbb2 {
+    text-align: justify;
+    font-size: 13;
+    float: right;
+    max-width: 100%;
+    background-color: teal;
+    color: yellow;
+    border: solid .5px darkslateblue;
+    opacity: .9;
+    font-family: "courier new", courier, monospace;
+    float: clear;
+}
+
+.links {
+    font-family: "courier new", courier, monospace;
+    font-size: 14px;
+    float: right;
+    padding: 2% 4%; 
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.6);
+    border-radius: 25%;
+    border: solid .5px darkslateblue;
+    background-color: #ff8707;
+    margin-top: 1px;
+    font-style: normal;
+    color: white; 
+    width:100%;
+    h3,
+    h4,
+    h5 {
+        text-align: center;
+    }
+}
+
+.links:hover {
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+}
+
+div#capturing.links {
+    float: left;
+    line-height: 1.3rem;
+    font-size: 1rem; 
+    background-image: url("../img/iceland.jpg");
+    padding: 2% 4%;
+    margin-top: 25px;
+    max-height: 800px;
+    overflow-y: scroll;
+    margin: 1%;
+    color: aliceblue;
+    z-index: 1000;  
+    p {
+        padding:0px 2%; 
+    }
+} 
+.lightpurple {
+    color: #8880b9/* lighter than darkslateblue */
+}
+
+h6,
+h5,
+h4,
+h3,
+h2,
+h1 {
+    color: darkslateblue;
+    opacity: .9;
+    line-height: 1.3em;
+    font-weight: bolder;
+    text-align: right; 
+}
+
+.capturing {
+    float: left;
+    line-height: 1.5rem;
+    font-size: 1.3rem;
+    color: aliceblue;
+}
+
+#campaign {
+    float: right;
+    line-height: 1.5em;
+    font-size: 1.3rem;
+    background-image: url('../img/T30.png');
+}

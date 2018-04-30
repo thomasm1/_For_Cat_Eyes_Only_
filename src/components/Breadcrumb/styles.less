@@ -1,0 +1,36 @@
+@import (reference, less) '~materialize-css/dist/css/materialize.min.css';
+:local(.Breadcrumb) {
+  &:extend(nav);
+  box-shadow: none;
+  background: transparent;
+  box-sizing: content-box;
+  height: 35px;
+  max-width: 1350px;
+  margin: 0 auto;
+  .breadcrumb:extend(.breadcrumb) {
+    color: #979797;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    font-size: 0.8em;
+
+    &:last-child {
+      color: black;
+    }
+    &::before {
+      color: #979797;
+      content: none;
+      font-size: 1.1rem;
+      font-weight: 600;
+      vertical-align: middle;
+    }
+    &:hover {
+      color: #666666;
+    }
+
+    .material-icons {
+      vertical-align: text-bottom;
+      float: none;
+    }
+  }
+}

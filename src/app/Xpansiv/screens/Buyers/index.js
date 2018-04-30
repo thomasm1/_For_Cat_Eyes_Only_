@@ -1,0 +1,55 @@
+// @flow
+import React, { Children } from 'react';
+
+import { connect } from 'react-redux';
+import type { ActionCreator } from 'redux';
+
+import { withRouter, browserHistory } from 'react-router';
+import type { RouteConfig, Location } from 'react-router';
+
+export type BuyerProps = {
+  children: React$Element<*> | Array<React$Element<*>>,
+  route: RouteConfig,
+  location: Location
+};
+
+export class Buyers extends React.Component {
+  props: BuyerProps;
+
+  state: {
+    showBackBtn: boolean;
+    action: any;
+  };
+
+  state = {
+    showBackBtn: false,
+    action: ''
+  };
+
+  static childContextTypes = {
+    setBackBtnVisibility: React.PropTypes.func,
+    setPageAction: React.PropTypes.func
+  };
+
+  getChildContext () {
+    return {
+      setBackBtnVisibility: (showBackBtn: boolean) => this.setState({ showBackBtn }),
+      setPageAction: (action: any) => this.setState({ action })
+    };
+  }
+
+  render () {
+    const { route, location, children } = this.props;
+    const { showBackBtn, action } = this.state;
+    return (
+      <div className='content-container'>
+        {children}
+      </div>
+    );
+  }
+}
+
+export default connect(
+  () => ({}),
+  {}
+)(withRouter(Buyers));

@@ -1,0 +1,37 @@
+/*   overrides */
+
+/************************* ******/
+$tmmBanner:  url(../img/silverchip.jpg)  repeat 0;
+$tmm:  url(../img/T30small10.png) repeat;
+$blueRey: steelblue url('../img/MaestasReykjavikBanner20.png') repeat;
+$tmmBanner:  url(../img/bluechipTile.jpg)  repeat 0;
+$body-bg:blue;
+$font-roboto:'Roboto';
+$bg-color: steelblue;
+$msg-color: white;
+$color: #fff; 
+$rey: url(../img/MaestasReykjavikBanner.png) repeat 0;
+
+
+
+
+body {
+  background: $bg-color;
+  color: $color;
+  font-family: $font-roboto; 
+  background:$blueRey ; 
+  margin-left:auto;
+margin-right:auto; 
+ 
+ 
+} 
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+ 

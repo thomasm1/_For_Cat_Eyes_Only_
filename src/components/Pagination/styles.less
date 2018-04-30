@@ -1,0 +1,70 @@
+@import (less, reference) '~materialize-css/dist/css/materialize.min.css';
+@border-radius: 4px;
+@gray: #BBBBBB;
+@active-fill: #EFEFEF;
+
+:local(.Pagination) {
+  display: flex;
+  margin-top: 30px;
+
+
+  .base {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 10px;
+    padding-left: 10px;
+    max-height: 20px;
+    background-color: #fafbfc;
+    border-top: 1px solid @gray;
+    border-bottom: 1px solid @gray;
+    border-left: 1px solid @gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4990E2;
+    &:hover {
+      background-color: @active-fill;
+      border-color: @gray;
+      cursor: pointer;
+      color: #9B9B9B;
+    }
+  }
+
+  .first {
+    .base;
+    border-radius: @border-radius;
+    margin-right: 10px;
+    border-right: 1px solid @gray;
+  }
+
+  .last {
+    .base;
+    border-radius: @border-radius;
+    margin-left: 10px;
+    border-right: 1px solid @gray;
+  }
+
+  .pageNumberContainer {
+    display: flex;
+  }
+
+  .pageNumber {
+    .base;
+    width: 30px;
+  }
+
+  .arrowLeft {
+    .base;
+    border-top-left-radius: @border-radius;
+    border-bottom-left-radius: @border-radius;
+  }
+
+  .arrowRight {
+    .base;
+    border-right: 1px solid @gray;
+    border-top-right-radius: @border-radius;
+    border-bottom-right-radius: @border-radius;
+  }
+}

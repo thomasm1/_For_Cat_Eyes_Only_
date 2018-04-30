@@ -1,0 +1,28 @@
+@import (reference, less) '~materialize-css/dist/css/materialize.min.css';
+:local(.PageHeader) {
+  margin-bottom: 50px;
+  border-bottom: thin solid #ECECEC;
+  text-transform: uppercase;
+  ul {
+    display: flex;
+    max-width: 1350px;
+    margin: 15px auto;
+    justify-content: space-between;
+    li {
+      display: inline-block;
+      a {
+        font-size: 24px;
+        padding: 15px;
+        padding-left: 5px;
+        color: #575757;
+      }
+      &:first-child > a {
+        padding: 15px 10px;
+        &:hover {
+          background: #E7E7E7;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+@import (reference, less) '~materialize-css/dist/css/materialize.min.css';
+@import '~variables';
+:local(.Navbar) {
+  &:extend(.side-nav all);
+  &:extend(.side-nav.fixed);
+
+  @itemHeight: 85px;
+  @subnavItemHeight: 45px;
+
+  padding-top: 64px;
+
+  @media screen {
+    @media (max-width: 992px) {
+      -webkit-transform: none;
+      transform: none;
+      width: @navbarWidthCollapsed;
+
+      .subnav {
+        display: none;
+      }
+    }
+  }
+
+  width: @navbarWidth;
+  background-color: @navbarBackgroundColor;
+
+  li {
+    min-height: @itemHeight;
+    line-height: @itemHeight;
+    overflow: hidden;
+    word-wrap: none;
+    & .disabled {
+      cursor: not-allowed;
+      small {
+        color: #F5A623;
+      }
+    }
+  }
+
+  li > a {
+    color: @inactiveTextColor;
+    background-color: @inactiveBackgroundColor;
+    line-height: @itemHeight;
+    height: @itemHeight;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 0 32px;
+    transition: 0.3s ease-out;
+
+    & .material-icons {
+      margin-right: 27px;
+    }
+
+
+  }
+
+  li.active > a {
+    background-color: @activeBackgroundColor;
+    color: @activeTextColor;
+    border-left: medium solid red;
+    min-height: 85px;
+  }
+
+  .subnav {
+    li {
+      min-height: @subnavItemHeight;
+      line-height: @subnavItemHeight;
+    }
+
+    li > a {
+      border: none;
+      color: @inactiveTextColor;
+      background-color: @activeBackgroundColor;
+      line-height: @subnavItemHeight;
+      height: @subnavItemHeight;
+      font-size: 0.8rem;
+      font-weight: 300;
+      padding: 0 32px 0 50px;
+
+      .material-icons {
+        margin-right: 27px;
+      }
+    }
+
+    li.active > a {
+      color: @activeTextColor;
+      min-height: @subnavItemHeight;
+    }
+
+    li.inactive > a {
+      color: @inactiveTextColor;
+    }
+
+  }
+}

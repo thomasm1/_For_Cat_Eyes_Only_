@@ -1,0 +1,248 @@
+/*Basic page setup for now **********************************************************************/
+/* This code is only meant for previewing your Reflow design. */
+body{
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    cursor: default;
+}
+
+p { 
+    line-height: 1.5em;
+    margin-bottom: 2em;
+}
+td{
+    vertical-align:middle;
+}
+
+ul.datatables {
+    display:flex;
+    list-style: none;
+    padding: 0;
+}
+
+ul.datatables li{
+    margin: 0px 20px 0px 0px;
+}
+
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(250,250,250);
+}
+
+#fixed-header {
+    float: left;
+    height: auto;
+    clear: none;
+    width: 100%;
+    min-width: 0px;
+    min-height: 150px;
+    background-color: rgb(255,255,255);
+    border-bottom:1px solid #000;
+    position: fixed;
+    top: 0px;
+    left: 0%;
+    z-index: 1;
+    bottom: auto;
+}
+nav {
+	list-item-decoration: none;
+	display:'inline-block';
+	
+}
+#nav-shallow { /*sliver navigation for logout*/
+    float: none;
+    height: auto;
+    margin: 0px auto;
+    clear: none;
+    width: 100%;
+    border-bottom:1px solid #000;
+    min-height: 30px;
+    padding: 10px;
+    text-align:right;
+    font-size:.8em;
+    text-transform: uppercase;
+}
+
+#menu { /*container for branding and main nav*/
+    float: none;
+    height: auto;
+    margin: 0px auto;
+    clear: none;
+    width: 1200px;
+    min-height: 130px;
+}
+
+#branding { /*logo*/
+    float: left;
+    height: 150px;
+    margin: 0px;
+    clear: none;
+    width: 400px;
+    padding: 10px;
+}
+
+#nav-main {
+    float: left;
+    height: 150px;
+    margin: 0px;
+    clear: none;
+    width: 800px;
+    /*padding: 10px;*/
+}
+
+#content { /*main page content*/
+    float: none;
+    height: auto;
+    margin: 180px auto 0px;
+    clear: none;
+    width: 1200px;
+    min-height: 2000px;
+    background-color: rgb(255, 255, 255);
+    padding: 60px;
+}
+
+#fixed-footer {
+    float: left;
+    height: 60px;
+    clear: none;
+    width: 100%;
+    position: fixed;
+    top: auto;
+    left: 0%;
+    z-index: 2;
+    bottom: 0%;
+    background-color: rgb(188, 188, 188);
+}
+
+#footer-content {
+    color: rgb(255, 255, 255);
+    float: none;
+    height: auto;
+    margin: 0px auto;
+    clear: none;
+    width: 1200px;
+    min-height: 60px;
+    padding: 20px;
+    background-color: rgb(114, 191, 204);
+}
+
+/*End basic page setup **********************************************************************/
+
+/*Content styles **********************************************************************/
+/*addons*/
+/*menu*/
+ul#menu-dash2menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float:right;
+}
+
+ul#menu-dash2menu li {
+    float: left;
+}
+
+ul#menu-dash2menu li a {
+    height:150px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 60px 16px;
+    text-decoration: none;
+}
+
+ul#menu-dash2menu li a:hover {
+background-color: rgb(250,250,250);
+border-bottom: 5px solid rgb(114, 191, 204);
+}
+
+.current-menu-item {
+    background-color: rgb(240, 240, 240);
+    color: black;
+    border-bottom: 5px solid rgb(114, 191, 204);
+}
+
+a.underline{
+    text-decoration:underline;
+    cursor:pointer;
+}
+a.underline:hover{
+        text-decoration:underline;
+        cursor:pointer;
+    color:#900;
+}
+
+/*overview plates*/
+.overview-heading {
+    font-size: .8em;
+    color:darkgrey;
+    font-weight: 900;
+    line-height: 1.1em;
+    clear: none;
+    text-transform: uppercase;
+    margin-bottom:10px;
+}
+.overview-bignumber {
+    font-size: 3em;
+    font-weight: 100;
+    line-height: 1em;
+    clear: none;
+    margin-bottom:5px;
+}
+.overview-bignumber-desc {
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 1.1em;
+    clear: none;
+    margin-bottom:20px;
+}
+
+/*overview plates*/
+.detail-graycaps {
+    font-size: .8em;
+    color:darkgrey;
+    font-weight: 900;
+    line-height: 1.1em;
+    clear: none;
+    text-transform: uppercase;
+    margin-bottom:5px;
+}
+.detail-bignumber {
+    font-size: 3em;
+    font-weight: 100;
+    line-height: 1em;
+    clear: none;
+    margin-bottom:2px;
+}
+.detail-description {
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 1.1em;
+    clear: none;
+    margin-bottom:5px;
+}
+.detail-description-small {
+    font-size: .8em;
+    font-weight: 200;
+    line-height: 1.1em;
+    clear: none;
+    margin-bottom:5px;
+}
+.blue {
+    color:steelblue;
+}
+
+/*End content styles **********************************************************************/
+
+/*modal*/
+.modal {
+    width:80%;
+}
+
