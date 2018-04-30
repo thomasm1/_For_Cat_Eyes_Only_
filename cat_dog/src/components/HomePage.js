@@ -2,6 +2,7 @@ var React = require('react');
 var Header = require('./Header');
 var Footer = require('./Footer');
 var PetGame = require('./PetGame');
+// require('./HomePage.css');
 
 var subStyle = {
   textAlign: 'center',
@@ -14,8 +15,16 @@ var center = {
 }
 var sStyle = {
   backgroundColor:'orange',
-  border:'1px solid blue'
-}
+  border:'1px solid blue',
+  padding:'50px',
+  margin:'50px',
+  boxShadow:'green, .2, .3, .3',
+  fontFamily:'Courier New'
+ }
+  
+
+
+
 var Style = {
   textAlign: 'center',
   fontSize: '2rem',

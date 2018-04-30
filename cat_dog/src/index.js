@@ -4,6 +4,6 @@ var HomePage = require('./components/HomePage');
 
 
 ReactDOM.render(
-  <HomePage />,
+  <HomePage  />,
   document.getElementById('root')
 );

@@ -12,6 +12,7 @@
   "dependencies": {
     "bcryptjs": "*",
     "body-parser": "*",
+    "browser-sync": "^2.24.1",
     "connect-flash": "*",
     "cookie-parser": "^1.4.1",
     "express": "*",
@@ -26,6 +27,9 @@
     "passport-local": "*"
   },
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.1",
     "webpack": "^4.6.0",
     "webpack-cli": "^2.0.15"
   },
