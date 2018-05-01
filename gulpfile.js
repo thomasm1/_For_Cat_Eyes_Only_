@@ -7,14 +7,14 @@ gulp.task('sass', function() {
 //   return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss','src/scss/*'])
   return gulp.src(['src/scss/cats.scss'])
     .pipe(sass())        
+    .pipe(gulp.dest("dist/css"))
 .pipe(gulp.dest("cat_dog/public/css"))
         .pipe(browserSync.stream());
 });
 
 // Move JS Files to src/js
 gulp.task('js', function() {
-    return gulp.src(['node_modules/bootstrap/dist/js/bootstrap.min.js', 'node_modules/jquery/dist/jquery.min.js','node_modules/popper.js/dist/umd/popper.min.js','src/js/cats.js'])
-        
+    return gulp.src(['node_modules/bootstrap/dist/js/bootstrap.min.js', 'node_modules/jquery/dist/jquery.min.js','node_modules/popper.js/dist/umd/popper.min.js','src/js/cats.js']) 
 .pipe(gulp.dest("cat_dog/public/js"))
         .pipe(browserSync.stream());
 });

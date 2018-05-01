@@ -2,7 +2,7 @@
 //require('../css/style.css'); 
 //var secretButtonMP = document.querySelector('#secret-buttonMP'); // MY PHILOSOPHY (dailytech mission)
 //var secretParagraphMP = document.querySelector('#secret-paragraphMP');
- 
+ /*
 let $ = require('./jquery.min'); 
 
 export   function functionItem() {
@@ -11,7 +11,7 @@ $.each(blogs, function(key, value){
     return blogs; 
 });
 };     
- 
+ */
 var kcbb = document.getElementById("kcbb") ;
 
 kcbb.innerHTML =   `<p>

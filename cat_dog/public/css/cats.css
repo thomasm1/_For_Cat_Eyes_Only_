@@ -1,8 +1,5 @@
 /*         BOX         D3     WIDGET       */
 /*         BOX         D3     geo-map  Jenks       */
-@import url("https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600");
-@import url("https://fonts.googleapis.com/css?family=Monoton:100,200,300,400,500,600");
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600");
 .names {
   fill: none;
   stroke: #fff;
@@ -6257,7 +6254,7 @@ VALUES -
 /* Solid Texture */
 .svgTexture {
   background: url("../dist/img/TMM.gif") repeat center top;
-  background-position: 85rem;
+  background-position: 89rem;
   background-size: 60%;
   color: transparent;
   -webkit-font-smoothing: antialiased;
