@@ -1,17 +1,4 @@
-
-//require('../css/style.css'); 
-//var secretButtonMP = document.querySelector('#secret-buttonMP'); // MY PHILOSOPHY (dailytech mission)
-//var secretParagraphMP = document.querySelector('#secret-paragraphMP');
- /*
-let $ = require('./jquery.min'); 
-
-export   function functionItem() {
-$.each(blogs, function(key, value){
-    $('#tmm-list').append('<li style="list-style-type:none">' + blogs[key].post + '</li>');   
-    return blogs; 
-});
-};     
- */
+ 
 var kcbb = document.getElementById("kcbb") ;
 
 kcbb.innerHTML =   `<p>
@@ -689,7 +676,6 @@ now recognized by 38 mostly first-world countries
         outcomes of the power-hungry cat-kingdoms. For c*at Eyes Only </p>
 
         <img src="dist/img/casAndTiger.png"></img>
-    
 `
 
 var capturing = document.querySelector("#capturing");
@@ -759,6 +745,9 @@ capturing.innerHTML = `
         THE ORAL TRADITION, WHICH I NOW RETELL, IN PARAPHRASE FASHION TOWARD THE TELLING OF THIS TALE.
 
     </p>
+
+
+
     <p>
 
         CASPER HIMSELF EXPLAINS THAT THE SAME ANASTASIA-THE SEAFARING ABYSSINIAN FROM MID 1800'S, HAD BEEN THE GRAND-GRAND-GRAND-KITTEN
@@ -838,41 +827,41 @@ capturing.innerHTML = `
         PLANS TO LEAD US ALL TO OUR DEMISE, I HEAR A FRENCH CONTINGENT TO COMPLETE FRANCE'S EUROPEAN STOP .
 
     </p>
-    <p>to be continued ... for cat eyes only ...</p>
-    <div  >
+    
+    <div >
 
-        <p>le 7 septembre 1810
-            <br /> the haree, all the cats gathered and all knew L&eacute;one, and his antipathy against us cats. and so,
-            again, how did communicate this favor to Clea again? So, the curfew will be lifted over the holiday!!
-            STOP. as back TO LEONE, and his diveerse phobia of all kit-kind, fearulfal above life, so the timespan
+        
+
+<h2>Chapter II: Casper's Treasure-Trove</h2>
+            <p>
+<p>I finally settled a date to complete our second interview with Casper and his rich lineage, yet was hindered by Casper's far-away travels as a famed geographer, at least among the Feline Species. 			And soo, Casper and I finalized our long-overdue second interview, this time with the docs. I happened to be attending the Paris Air Show, and Casper was on-hand by impersonating as service cats via the airlines. 
+            </p><p>Casper prefers to pace during our interviews so we thought the long hallways of the Palace of Versailles, just 45 minutes south of Paris, would serve well. On Wednesday mornings, there are fewer tourists so we agreed on noon's break next full moon. At his request, I happily agreed, and after all, it was these within these very halls that Casper's long-ago kattnancenstry, his 4th-generation-ago aunt Anastasia and five generations further, his cousin Cl&eacute;apatrice. And so, Versailles would seem as good as any place to re-interview the young Casper Lowenbrau. 'Perhaps on the terrace' he paused. We agreed after here two months, and I on a deadline. Most importantly, we were both excited to upack and translate the treasure-trove of documents dating to the French-Canadian region (then under control of the Northern Alliance Cat Kingdom (NACK) in the 1870's). These were inherited, and sent by legal cat-courier, pre-arranged by the the attention of Casper's great-great-great-Katter-Tant   Anastasia, the long-ago sea-faring Abyssian whose forklore travels to the ST. Laurent River Fish Trade. Although Anastasia was often a stowaway on the ships, then leaving from Halifax to Cherbourg, France. There it was whose great-great-niece Cl&eacute;patrice (hetero-litter cousin), personal Chateau Cat of Louis Napoleon's wife. Again to recap, Cl&eacuteatrice befriended the only other "favored" cat in the Napoleonic empire of 1809, young Petyas. And, as fortune would have it, Petyas, too, meticulously kept notes on the Imperial family's daily affairs. A more nuanced view of the family of the French Emporer, Napol&eacuteone di Bonaparte. The light-heartened banter, the scheming, always ending in scandal - these are the affairs that so interested a young Petyas--a de facto house-scribe with a passion for pawing prints. After all, it was at his word, and his katten-tante Cl&eacute;apatrice's word, that hung all of the feline gossip across the entire French Empire. By 1809, borders stretch from the beaches of Portugal and Italy up to Kaiser Wilhem in Prussia to the north and Tsar Alexandre I to the East. It was said that his imperial favor was toward all cats, and oversaw many generous pan-feline protections.  
+			</p> 
+  
+<h5 
+<p>le 7 septembre 1810
+            <br />The wisdom of Tsar Alexandre I's Generals had the tents in full flight, by night and by day, pursued! According to the notes, they read, roughly translated:
+            "... there Cl&eacute;apatrice then all the cats gathered and all knew L&eacute;one, and his antipathy against all cats
+            . and so,
+            again, how did communicate this favor to Cl&eacute;a again? So, the curfew will be lifted over the holiday!!
+            STOP. as back TO LEONE, and his diveerse phobia of all kit-kind, fearlfal above life, so the timespan
             of many bloodshed due to the unquestionchanble quest for victory. STOP.... she overheard how Russians
             transporting countless alley-cats STOP... 100 shipments of Tunafish shipments .. their kats ..Tents ...
             <br />He opposing general at waterloo, knows this. STOP . Today he again denied he unleashed this band of cats
             in the tents of napoleaon ww.. The catsdon't kjnow if fancy feast, collective memory of thies event.
             STOP .. passed doen from gen eto gen knownn as waterloo, where there was stunafish fliying out of the
             scky.STOP Cannons filled with live and tinned tunafish ... near Austerlitz MINARD'S DRAWING SHOWS ROUTE
-            X HERE. DEPICTS THE APPROACH UP TO THE SUBURBS OF MOSCOU, STOP 
-            <p>to be continued ... for cat eyes only ...STOP </p>
+            X HERE. DEPICTS THE APPROACH UP TO THE SUBURBS OF MOSCOU, STOP
+<p>to be continued ... for cat eyes only ...</p>
 
-            <>starvation STOP. FULL STOP.
 
-                <p class="excerpts" style="color:aliceblue">by t. milton maestas</p>
+
+
+
+
+
+  <p class="excerpts" style="color:aliceblue">by t. milton maestas<span> &</p>
         </p>
-
-        <p >
-            <br />LE 9 OCTOBRE 
-            <br />
-            <br/>THE WAR WAS ON ITS WAY, BUT THERE WAS NOTHING YOU COULD DO--SO YOU BETTER NOT SLEEP CAUSE SHE'S WAITING, WAITING! CLEAPATRA AWAITED THE NEWS WITH A DEFERENCE FOR ACCURACY OVER TIMELINESS. THIS TIME, PETYAS HITCHED A RIDE TO THE FRONT LONG AFTER THE FIRST WAVES OF MUNITIONS SPUN PAST THE VELVET RESIDENCE ON A COLD AUTUMN NIGHT.  BY THIS TIME THE RUMOURS DISPELLED THAT PEACE COULD STILL BE SUED FOR. ALREADY, LA GRANDE ARMEE WAS IN FULL CHARGE, BUT SOMETHING WAS DIFFERENT: the emporer's contingent didn't leave camp, and straightway began dissembling--without plan, and certainly without Henri's knowledge--he left for the front a fortnight earlier. 
-            <br />According to the documents, and Petyas' journalistic pawings, fear didn't overcome the cat kingdom. Perhaps the felines were ready for change, perhaps they felt no threat, but the long, mysterious presence of Tuna couldn't be explained away, much less explained.  For that cats, the odor made for relax and not panic.  
-        <br /><br />Days passed and nobody in the forward headquarters know to make heads or tails about their fate. Until one fateful October morning when the first targeted attacks arrived, not in the form of cannon fodder but in the form of live tuna, cannons' worth ... [the notes read:] Surely a ninth life hath struck by night and yet the living are alive and the dead have either fled away or haven't arrived ... [Petyas writes] rumour has it and has it again, Herzog plans on inundating the camp with fish, leading an army of cats to frighten Napoleon's direction and his generals' advice! This would explain the convoys of fish from the north sea, spied from the outer encampments... ]<br />
-        HERE, CASPER INTERJECTS AND EXPLAINS THE ORAL TRADITION THAT CATS OF GENERATIONS AGO NOW TELL THEIR KATTEN KIND: Not long after arriving beyond the gates of the camp, word spread quickly: Russian General Herzveg--known for fierce battles, and moreso for cunning in battle--had apparently drawn up war plans of psychology ... aimed precisely at Nappoleon Buonaparte's undying fear of cats! 
-            <br />Cleapatra heard the news first, from Petyas ... without need for corroboration, she couldn't contain her amusement. Besides an irresistable pity for poor Napol&eacute;on, news must be sent back to the Cats of the French countryside --the war is done! the war is over!... a new leader is imminent (this of course was a premature assumption, but important for news directed to the katten kingdom)
-</p><p  class="p">
-By the second day of bombardment, the Russian cats arrived from every corner, long-legged and filled with fur! Petyas had never seen the like... and here they joined in the feasts--not only was the tuna fresh, the tuna was devoured before daybreak in most cases.  Needless to say, the Emporer's panic spread to the generals.  Not only would they need to decamp forward operations, but munitions would need to revert to protect the headquarters -- all while the camp became daily overtaken by cats of all shades and colors. Cats from the bush, cats from the hinterland, Petyas writes of a blue cat, filled with purple hair and green eyes--fast friends they made according to his accounts.  The chaos and merriment for the cats alternately meant a deep dread among the soldiers. They of course were indifferent to the overpopulation of cats, but their despair multiplied at the scattered directions contradicted from the the second and third commands --  Now, the odds multiplied and certainly a mutinous air pervaded the camp -- Could the mighty and heaven-sent wisdom of Napoleon be turned away by the sight of a thousand cats?  Would the war really end on these terms?  An unsymmetrical war indeed...
-</p><p>
-Meanwhile, in the camp not all was war and hurt--after all, it was Petyas, a young catten of no more than a dozen new moons, that became enamoured by a singular Moscovite, a kitten by the name of Anastasia Terova. By the third day of cannon fodder, evacuation chaos spilled over into logistical nightmares between Imperial generals attempting to organize repositioning. two-by-two marching at double calm, calm but hurried. There is no answering, if you are a general, to Napol&eacute;on's against Emporor Napoleon. ... meanwhile, back at the Logistics Officer Henri Petonier, there is only unrest. He and his regimen have been ordered to stay at orders ... thus tempo takes on a slow order. The two best generals of Henri Petonier continue pacing, ... and a solitary cat sits in the window outlet, if only observing.</p>
-<p>Now .. [according to Peytas' notes page 44] ... the tempo quickens, now as I look below my window, on main street ... the tuna continues falling,  like snowflakes. Falling, falling to the ground. [Now, the journal entry does not continue until page [63]]. Here, the author interjects - according to Casper's rewording of the pages read : "retelling of the obsession over ocean food. On site, a breath is a breath, the more iron, the merrier - breath to the ocean only charges the very minerals Tuna will eat ... ] ... and now the Historigrapher explains: Iron and Nickel, only charges the sea. higher ratios in concentration spell the reasoning behind the kit kinds' saying. 
-</p >
 
         </span>
         <br />

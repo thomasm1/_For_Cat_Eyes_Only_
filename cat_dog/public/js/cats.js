@@ -689,6 +689,7 @@ now recognized by 38 mostly first-world countries
         outcomes of the power-hungry cat-kingdoms. For c*at Eyes Only </p>
 
         <img src="dist/img/casAndTiger.png"></img>
+    
 `
 
 var capturing = document.querySelector("#capturing");
@@ -758,9 +759,6 @@ capturing.innerHTML = `
         THE ORAL TRADITION, WHICH I NOW RETELL, IN PARAPHRASE FASHION TOWARD THE TELLING OF THIS TALE.
 
     </p>
-
-
-
     <p>
 
         CASPER HIMSELF EXPLAINS THAT THE SAME ANASTASIA-THE SEAFARING ABYSSINIAN FROM MID 1800'S, HAD BEEN THE GRAND-GRAND-GRAND-KITTEN
@@ -853,10 +851,7 @@ capturing.innerHTML = `
             in the tents of napoleaon ww.. The catsdon't kjnow if fancy feast, collective memory of thies event.
             STOP .. passed doen from gen eto gen knownn as waterloo, where there was stunafish fliying out of the
             scky.STOP Cannons filled with live and tinned tunafish ... near Austerlitz MINARD'S DRAWING SHOWS ROUTE
-            X HERE. DEPICTS THE APPROACH UP TO THE SUBURBS OF MOSCOU, STOP
-
-
-
+            X HERE. DEPICTS THE APPROACH UP TO THE SUBURBS OF MOSCOU, STOP 
             <p>to be continued ... for cat eyes only ...STOP </p>
 
             <>starvation STOP. FULL STOP.
@@ -864,15 +859,20 @@ capturing.innerHTML = `
                 <p class="excerpts" style="color:aliceblue">by t. milton maestas</p>
         </p>
 
-
-
-
-
-
-
-
-
-
+        <p class="p">
+            <br />LE 9 OCTOBRE 
+            <br />
+            <br/>THE WAR WAS ON ITS WAY, BUT THERE WAS NOTHING YOU COULD DO--SO YOU BETTER NOT SLEEP CAUSE SHE'S WAITING, WAITING! CLEAPATRA AWAITED THE NEWS WITH A DEFERENCE FOR ACCURACY OVER TIMELINESS. THIS TIME, PETYAS HITCHED A RIDE TO THE FRONT LONG AFTER THE FIRST WAVES OF MUNITIONS SPUN PAST THE VELVET RESIDENCE ON A COLD AUTUMN NIGHT.  BY THIS TIME THE RUMOURS DISPELLED THAT PEACE COULD STILL BE SUED FOR. ALREADY, LA GRANDE ARMEE WAS IN FULL CHARGE, BUT SOMETHING WAS DIFFERENT: the emporer's contingent didn't leave camp, and straightway began dissembling--without plan, and certainly without Henri's knowledge--he left for the front a fortnight earlier. 
+            <br />According to the documents, and Petyas' journalistic pawings, fear didn't overcome the cat kingdom. Perhaps the felines were ready for change, perhaps they felt no threat, but the long, mysterious presence of Tuna couldn't be explained away, much less explained.  For that cats, the odor made for relax and not panic.  
+        <br /><br />Days passed and nobody in the forward headquarters know to make heads or tails about their fate. Until one fateful October morning when the first targeted attacks arrived, not in the form of cannon fodder but in the form of live tuna, cannons' worth ... [the notes read:] Surely a ninth life hath struck by night and yet the living are alive and the dead have either fled away or haven't arrived ... [Petyas writes] rumour has it and has it again, Herzog plans on inundating the camp with fish, leading an army of cats to frighten Napoleon's direction and his generals' advice! This would explain the convoys of fish from the north sea, spied from the outer encampments... ]<br />
+        HERE, CASPER INTERJECTS AND EXPLAINS THE ORAL TRADITION THAT CATS OF GENERATIONS AGO NOW TELL THEIR KATTEN KIND: Not long after arriving beyond the gates of the camp, word spread quickly: Russian General Herzveg--known for fierce battles, and moreso for cunning in battle--had apparently drawn up war plans of psychology ... aimed precisely at Nappoleon Buonaparte's undying fear of cats! 
+            <br />Cleapatra heard the news first, from Petyas ... without need for corroboration, she couldn't contain her amusement. Besides an irresistable pity for poor Napol&eacute;on, news must be sent back to the Cats of the French countryside --the war is done! the war is over!... a new leader is imminent (this of course was a premature assumption, but important for news directed to the katten kingdom)
+</p><p>
+By the second day of bombardment, the Russian cats arrived from every corner, long-legged and filled with fur! Petyas had never seen the like... and here they joined in the feasts--not only was the tuna fresh, the tuna was devoured before daybreak in most cases.  Needless to say, the Emporer's panic spread to the generals.  Not only would they need to decamp forward operations, but munitions would need to revert to protect the headquarters -- all while the camp became daily overtaken by cats of all shades and colors. Cats from the bush, cats from the hinterland, Petyas writes of a blue cat, filled with purple hair and green eyes--fast friends they made according to his accounts.  The chaos and merriment for the cats alternately meant a deep dread among the soldiers. They of course were indifferent to the overpopulation of cats, but their despair multiplied at the scattered directions contradicted from the the second and third commands --  Now, the odds multiplied and certainly a mutinous air pervaded the camp -- Could the mighty and heaven-sent wisdom of Napoleon be turned away by the sight of a thousand cats?  Would the war really end on these terms?  An unsymmetrical war indeed...
+</p><p>
+Meanwhile, in the camp not all was war and hurt--after all, it was Petyas, a young catten of no more than a dozen new moons, that became enamoured by a singular Moscovite, a kitten by the name of Anastasia Terova. By the third day of cannon fodder, evacuation chaos spilled over into logistical nightmares between Imperial generals attempting to organize repositioning. two-by-two marching at double calm, calm but hurried. There is no answering, if you are a general, to Napol&eacute;on's against Emporor Napoleon. ... meanwhile, back at the Logistics Officer Henri Petonier, there is only unrest. He and his regimen have been ordered to stay at orders ... thus tempo takes on a slow order. The two best generals of Henri Petonier continue pacing, ... and a solitary cat sits in the window outlet, if only observing.</p>
+<p>Now .. [according to Peytas' notes page 44] ... the tempo quickens, now as I look below my window, on main street ... the tuna continues falling, almost like snowflakes. Falling, falling to the ground. [Now, the journal entry does not continue until page [63]]. Here, the author interjects - according to Casper's rewording of the pages read : "retelling of the obsession over ocean food. On site, a breath is a breath, the more iron, the merrier - breath to the ocean only charges the very minerals Tuna will eat ... ] ... and now the Historigrapher explains: Iron and Nickel, only charges the sea. higher ratios in concentration spell the reasoning behind the kit kinds' saying. </P>
+<p>
 
         </span>
         <br />

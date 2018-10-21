@@ -4,7 +4,7 @@ const config = {
     entry: './src/js/cats.js', 
   output: {
     path: path.resolve(__dirname, 'dist/js/'),
-  filename: 'cats.bundle.js'
+  filename: 'cats.bundle-september.js'
 },
   module: {
     rules: [
